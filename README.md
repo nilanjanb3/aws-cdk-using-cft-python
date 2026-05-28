@@ -21,7 +21,7 @@ By the end of this 1-day path, you should be able to:
 
 ## Lesson 1: CDK Mental Model for Terraform/CFT Users
 
-**What you’ll learn**
+**[What you’ll learn](./notes/01-lesson01.md)**
 
 - What CDK is and where it fits in AWS IaC
 - How **CDK generates CloudFormation**
@@ -35,7 +35,7 @@ By the end of this 1-day path, you should be able to:
   - Terraform modules/resources/state model
   - CloudFormation templates/stacks
 
-**Hands-on**
+**[Hands-on](./handson/01-handson01.md)**
 
 - Install CDK CLI and Python project dependencies
 - Initialize a new Python CDK app
