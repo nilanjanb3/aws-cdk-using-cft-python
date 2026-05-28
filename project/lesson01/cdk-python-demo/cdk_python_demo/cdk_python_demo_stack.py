@@ -1,6 +1,7 @@
 from aws_cdk import (
     # Duration,
     Stack,
+    aws_s3 as s3,
     # aws_sqs as sqs,
 )
 from constructs import Construct
@@ -17,3 +18,6 @@ class CdkPythonDemoStack(Stack):
         #     self, "CdkPythonDemoQueue",
         #     visibility_timeout=Duration.seconds(300),
         # )
+        bucket = s3.Bucket(self, "CdkPythonDemoBucket874512",
+            versioned=True,
+        )
