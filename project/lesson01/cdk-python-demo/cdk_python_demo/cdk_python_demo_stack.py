@@ -1,6 +1,7 @@
 from aws_cdk import (
     # Duration,
     Stack,
+    RemovalPolicy,
     aws_s3 as s3,
     # aws_sqs as sqs,
 )
@@ -20,4 +21,6 @@ class CdkPythonDemoStack(Stack):
         # )
         bucket = s3.Bucket(self, "CdkPythonDemoBucket874512",
             versioned=True,
+            removal_policy=RemovalPolicy.DESTROY,
+            auto_delete_objects=True
         )

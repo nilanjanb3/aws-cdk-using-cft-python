@@ -51,7 +51,7 @@ By the end of this 1-day path, you should be able to:
 
 ## Lesson 2: Bootstrap + First Stack Deployment
 
-**What you’ll learn**
+**[What you’ll learn](./notes/02-lesson02.md)**
 
 - Why CDK bootstrap is needed
 - CDK deployment lifecycle
@@ -62,7 +62,7 @@ By the end of this 1-day path, you should be able to:
   - `cdk deploy`
   - `cdk destroy`
 
-**Hands-on**
+**[Hands-on](./handson/02-handson02.md)**
 
 - Bootstrap your AWS environment
 - Create a simple S3 bucket stack
